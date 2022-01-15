@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>书名查找页面</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/book-find-name.css">
+	<link rel="stylesheet" href="http://at.alicdn.com/t/font_2971187_etrognr1gcw.css">
+</head>
+<body>
+      <div class="bigBox">
+          <form action="/myWeb/book_find_name">
+              <div class="inputText">
+              	<ul>
+              		<li>
+              			<h1>书名查找书籍<i class="iconfont icon-sousuo"></i></h1>
+              		</li>
+              		<li>
+              			<h2>请你输入需要查找书籍的名字</h2>
+              		</li>
+              		<li>
+              			<div class="text">
+              				书籍名：
+              			<input type="text" name="name" class="id">
+              			</div>
+              		</li>
+              		<li>
+              			<input type="submit" value="查找" class="button">
+              			<input type="reset" class="button">
+              		</li>
+              	</ul>
+              	<h3>感谢你的使用，欢迎再次借阅</h3>
+              </div>    
+          </form>
+       </div>
+	   <script>
+	   window.addEventListener('load',function(){
+	   	setTimeout(function(){
+	   		alert('书籍信息有误，请确认无误后在输入');
+	   	},1000)
+	   })
+	   </script>
+</body>
+</html>
+

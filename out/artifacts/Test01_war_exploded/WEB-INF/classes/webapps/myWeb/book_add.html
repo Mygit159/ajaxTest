@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加书籍信息页面</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/book-add.css">
+</head>
+<body>
+	<div class="bigBox">
+		<form action="/myWeb/book_add" method="get">
+		    <table class="inputtext">
+				<thead>
+					<tr>
+						<th colspan="2">请输入要添加书籍的信息</th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+					    <td>书籍编号</td>
+					    <td><input type="text" name="id"></td>
+					</tr>
+					<tr>
+					    <td>书籍名称</td>
+					    <td><input type="text" name="name"></td>
+					</tr>
+					<tr>
+					    <td>书籍简介</td>
+					    <td><input type="text" name="introduce"></td>
+					</tr>
+					<tr>
+					    <td>书籍类型</td>
+					    <td><input type="text" name="style"></td>
+					</tr>
+					<tr>
+					    <td>所剩容量</td>
+					    <td><input type="text" name="num"></td>
+					</tr>
+					<tr>
+					    <td><input type="submit" value="添加书籍" class="button"></td>
+					    <td><input type="reset" class="button"></td>
+					</tr>
+				</tbody>
+		    </table>
+		</form>
+	</div>
+</body>
+

@@ -1,0 +1,65 @@
+body{
+	background-image: url(../img/图书馆.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.text{
+	width:100%;
+}
+.text h2{
+	margin-top:20px;
+	text-align: center;
+	color: 	#F4A460;
+	font-size: 45px;
+}
+#bigBox{
+	margin:0 auto;
+	margin-top:100px;
+	padding: 20px 50px;
+	background-color: #00000090;
+	border-radius: 10px;
+	width:350px;
+	height:250px;
+	text-align: center;
+}
+#bigBox h1{
+	color:white;
+}
+#bigBox .inputBox{
+	margin-top: 25px;
+}
+#bigBox .inputBox .inputText{
+	margin-top: 10px;
+}
+#bigBox .inputBox .inputText span{
+	color: white;
+	font-size: 22px;
+	text-align: center;
+}
+#bigBox .inputBox .inputText input{
+	border:0;
+	padding: 10px 10px;
+	border-bottom: 1px solid white;
+	background-color: #00000000;
+	color:white;
+}
+#bigBox .inputBox .submitButton{
+	border: 0;
+	width:80px;
+	height:30px;
+	margin:25px 6px;
+	border-radius: 20px;
+	color:white;
+	background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+#bigBox .inputBox .resetButton{
+	border: 0;
+	width:80px;
+	height:30px;
+	margin:25px 6px;
+	border-radius: 20px;
+	color:white;
+	background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}

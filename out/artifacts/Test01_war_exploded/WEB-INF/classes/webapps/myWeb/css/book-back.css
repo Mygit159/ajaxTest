@@ -1,0 +1,64 @@
+body{
+	background-color:#F5DEB3;
+	
+	background-image: url('../img/前台图.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.bigBox{
+	width:400px;
+	height:400px;
+	margin:50px auto;
+	background-image: url('../img/前台图.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-radius: 5px;
+	opacity: 0.7;
+}
+.inputText{
+	text-align: center;
+}
+.inputText h1{
+	padding:10px 0;
+	color: #000000;
+	border-bottom: 2px solid #000000;
+}
+.inputText h2{
+	padding:10px 0;
+	color: #000000;
+	border-bottom: 1px solid #000000;
+	border-left: 2px solid #000000;
+	border-right: 2px solid #000000;
+}
+.inputText .text{
+	padding:5px;
+	font-size: 18px;
+	color: #000000;
+	border-bottom: 1px solid #000000;
+	border-left: 2px solid #000000;
+	border-right: 2px solid #000000;
+}
+.id{
+	height:24px;
+	width:80px;
+	margin-left: 10px;
+}
+h3{
+	font-size: 16px;
+	color:#000000;
+	padding-bottom: 20px;
+	border-bottom: 3px solid #000000;
+	/* border-left: 2px solid #000000;
+	border-right: 2px solid #000000; */
+}
+.button{
+	margin:20px 20px 50px 20px;
+	height:30px;
+	width:70px;
+	border: 0;
+	border-radius: 5px;
+	font-size: 16px;
+	background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+}
